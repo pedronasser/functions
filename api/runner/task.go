@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/docker/docker/cli/config/configfile"
+	"github.com/docker/docker/cliconfig/configfile"
 	docker "github.com/fsouza/go-dockerclient"
-	"github.com/iron-io/functions/api/runner/task"
-	"github.com/iron-io/runner/drivers"
+	"github.com/pedronasser/functions/api/runner/task"
+	"github.com/pedronasser/runner/drivers"
 )
 
 var registries dockerRegistries

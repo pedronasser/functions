@@ -12,7 +12,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/iron-io/functions/fn/langs"
+	"github.com/pedronasser/functions/fn/langs"
 )
 
 func verbwriter(verbose bool) io.Writer {

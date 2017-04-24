@@ -14,11 +14,11 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/gin-gonic/gin"
-	"github.com/iron-io/functions/api"
-	"github.com/iron-io/functions/api/models"
-	"github.com/iron-io/functions/api/runner"
-	"github.com/iron-io/functions/api/runner/task"
-	"github.com/iron-io/runner/common"
+	"github.com/pedronasser/functions/api"
+	"github.com/pedronasser/functions/api/models"
+	"github.com/pedronasser/functions/api/runner"
+	"github.com/pedronasser/functions/api/runner/task"
+	"github.com/pedronasser/runner/common"
 	uuid "github.com/satori/go.uuid"
 )
 

@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/iron-io/functions/api"
-	"github.com/iron-io/functions/api/models"
+	"github.com/pedronasser/functions/api"
+	"github.com/pedronasser/functions/api/models"
 )
 
 type ApiHandlerFunc func(w http.ResponseWriter, r *http.Request)

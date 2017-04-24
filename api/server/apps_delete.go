@@ -5,9 +5,9 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/iron-io/functions/api"
-	"github.com/iron-io/functions/api/models"
-	"github.com/iron-io/runner/common"
+	"github.com/pedronasser/functions/api"
+	"github.com/pedronasser/functions/api/models"
+	"github.com/pedronasser/runner/common"
 )
 
 func (s *Server) handleAppDelete(c *gin.Context) {

@@ -1,7 +1,7 @@
 package route
 
 import (
-	"github.com/iron-io/functions/examples/blog/database"
+	"github.com/pedronasser/functions/examples/blog/database"
 	"gopkg.in/mgo.v2/bson"
 )
 

@@ -15,7 +15,7 @@ Here's a rough diagram of what a production deployment looks like:
 
 Any load balancer will work, put every instance of IronFunctions that you run behind the load balancer.
 
-**Note**: We will work on a smart load balancer that can direct traffic in a smarter way. See [#151](https://github.com/iron-io/functions/issues/151).
+**Note**: We will work on a smart load balancer that can direct traffic in a smarter way. See [#151](https://github.com/pedronasser/functions/issues/151).
 
 ## Database
 

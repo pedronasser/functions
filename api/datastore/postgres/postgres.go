@@ -10,8 +10,8 @@ import (
 
 	"bytes"
 	"github.com/Sirupsen/logrus"
-	"github.com/iron-io/functions/api/datastore/internal/datastoreutil"
-	"github.com/iron-io/functions/api/models"
+	"github.com/pedronasser/functions/api/datastore/internal/datastoreutil"
+	"github.com/pedronasser/functions/api/models"
 	"github.com/lib/pq"
 	_ "github.com/lib/pq"
 )

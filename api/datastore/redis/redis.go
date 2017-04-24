@@ -12,8 +12,8 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/garyburd/redigo/redis"
-	"github.com/iron-io/functions/api/models"
-	"github.com/iron-io/functions/api/datastore/internal/datastoreutil"
+	"github.com/pedronasser/functions/api/models"
+	"github.com/pedronasser/functions/api/datastore/internal/datastoreutil"
 )
 
 type RedisDataStore struct {

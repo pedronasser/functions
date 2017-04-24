@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/iron-io/functions/api/datastore"
-	"github.com/iron-io/functions/api/models"
-	"github.com/iron-io/functions/api/mqs"
+	"github.com/pedronasser/functions/api/datastore"
+	"github.com/pedronasser/functions/api/models"
+	"github.com/pedronasser/functions/api/mqs"
 )
 
 func TestRouteCreate(t *testing.T) {

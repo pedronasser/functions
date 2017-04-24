@@ -21,7 +21,7 @@ function quick() {
 }
 
 function build () {
-    docker run --rm -v ${pwd}:/go/src/github.com/iron-io/functions -w /go/src/github.com/iron-io/functions iron/go:dev go build -o functions-alpine
+    docker run --rm -v ${pwd}:/go/src/github.com/pedronasser/functions -w /go/src/github.com/pedronasser/functions iron/go:dev go build -o functions-alpine
     docker build -t iron/functions:latest .
 }
 

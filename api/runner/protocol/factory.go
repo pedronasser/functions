@@ -5,8 +5,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/iron-io/functions/api/models"
-	"github.com/iron-io/functions/api/runner/task"
+	"github.com/pedronasser/functions/api/models"
+	"github.com/pedronasser/functions/api/runner/task"
 )
 
 var errInvalidProtocol = errors.New("Invalid Protocol")

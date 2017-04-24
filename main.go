@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	"github.com/iron-io/functions/api/server"
+	"github.com/pedronasser/functions/api/server"
 )
 
 func main() {

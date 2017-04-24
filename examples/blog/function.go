@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/iron-io/functions/examples/blog/database"
-	"github.com/iron-io/functions/examples/blog/models"
-	"github.com/iron-io/functions/examples/blog/routes"
+	"github.com/pedronasser/functions/examples/blog/database"
+	"github.com/pedronasser/functions/examples/blog/models"
+	"github.com/pedronasser/functions/examples/blog/routes"
 )
 
 var noAuth = map[string]interface{}{}

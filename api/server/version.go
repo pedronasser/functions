@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/iron-io/functions/api/version"
+	"github.com/pedronasser/functions/api/version"
 )
 
 func handleVersion(c *gin.Context) {

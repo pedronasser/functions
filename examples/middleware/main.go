@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/iron-io/functions/api/models"
-	"github.com/iron-io/functions/api/server"
+	"github.com/pedronasser/functions/api/models"
+	"github.com/pedronasser/functions/api/server"
 )
 
 func main() {

@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"os"
 
-	vers "github.com/iron-io/functions/api/version"
+	vers "github.com/pedronasser/functions/api/version"
 	functions "github.com/iron-io/functions_go"
 	"github.com/urfave/cli"
 )

@@ -1,0 +1,136 @@
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/Sirupsen/logrus"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/aws/aws-sdk-go"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/boltdb/bolt"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/ccirello/supervisor"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/dghubble/go-twitter"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/dghubble/oauth1"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/dgrijalva/jwt-go"
+
+[[dependencies]]
+  name = "github.com/docker/docker"
+  version = "^1.13.1"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/fsouza/go-dockerclient"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/garyburd/redigo"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/giantswarm/semver-bump"
+
+[[dependencies]]
+  branch = "develop"
+  name = "github.com/gin-gonic/gin"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/go-openapi/errors"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/go-openapi/loads"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/go-openapi/runtime"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/go-openapi/spec"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/go-openapi/strfmt"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/go-openapi/swag"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/go-openapi/validate"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/go-sql-driver/mysql"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/golang/groupcache"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/google/btree"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/iron-io/functions_go"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/iron-io/iron_go3"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/jmoiron/jsonq"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/lib/pq"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/pedronasser/runner"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/pkg/errors"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/satori/go.uuid"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/spf13/viper"
+
+[[dependencies]]
+  branch = "master"
+  name = "github.com/urfave/cli"
+
+[[dependencies]]
+  branch = "master"
+  name = "golang.org/x/crypto"
+
+[[dependencies]]
+  name = "gopkg.in/mgo.v2"
+  revision = "b6e2fa371e64216a45e61072a96d4e3859f169da"
+
+[[dependencies]]
+  branch = "v2"
+  name = "gopkg.in/yaml.v2"

@@ -11,8 +11,8 @@ import (
 	"github.com/Sirupsen/logrus"
 	"github.com/go-sql-driver/mysql"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/iron-io/functions/api/datastore/internal/datastoreutil"
-	"github.com/iron-io/functions/api/models"
+	"github.com/pedronasser/functions/api/datastore/internal/datastoreutil"
+	"github.com/pedronasser/functions/api/models"
 )
 
 const routesTableCreate = `CREATE TABLE IF NOT EXISTS routes (

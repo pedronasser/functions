@@ -13,9 +13,9 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/iron-io/functions/api/models"
-	"github.com/iron-io/functions/api/runner/task"
-	"github.com/iron-io/runner/common"
+	"github.com/pedronasser/functions/api/models"
+	"github.com/pedronasser/functions/api/runner/task"
+	"github.com/pedronasser/runner/common"
 )
 
 func getTask(ctx context.Context, url string) (*models.Task, error) {

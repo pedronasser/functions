@@ -9,10 +9,10 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/gin-gonic/gin"
-	"github.com/iron-io/functions/api/datastore"
-	"github.com/iron-io/functions/api/models"
-	"github.com/iron-io/functions/api/mqs"
-	"github.com/iron-io/functions/api/runner/task"
+	"github.com/pedronasser/functions/api/datastore"
+	"github.com/pedronasser/functions/api/models"
+	"github.com/pedronasser/functions/api/mqs"
+	"github.com/pedronasser/functions/api/runner/task"
 )
 
 func setLogBuffer() *bytes.Buffer {

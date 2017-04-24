@@ -13,8 +13,8 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/boltdb/bolt"
-	"github.com/iron-io/functions/api/models"
-	"github.com/iron-io/runner/common"
+	"github.com/pedronasser/functions/api/models"
+	"github.com/pedronasser/runner/common"
 )
 
 type BoltDbMQ struct {

@@ -5,11 +5,11 @@ import (
 	"net/url"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/iron-io/functions/api/datastore/bolt"
-	"github.com/iron-io/functions/api/datastore/mysql"
-	"github.com/iron-io/functions/api/datastore/postgres"
-	"github.com/iron-io/functions/api/datastore/redis"
-	"github.com/iron-io/functions/api/models"
+	"github.com/pedronasser/functions/api/datastore/bolt"
+	"github.com/pedronasser/functions/api/datastore/mysql"
+	"github.com/pedronasser/functions/api/datastore/postgres"
+	"github.com/pedronasser/functions/api/datastore/redis"
+	"github.com/pedronasser/functions/api/models"
 )
 
 func New(dbURL string) (models.Datastore, error) {

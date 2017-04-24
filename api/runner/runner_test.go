@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/iron-io/functions/api/models"
-	"github.com/iron-io/functions/api/runner/task"
+	"github.com/pedronasser/functions/api/models"
+	"github.com/pedronasser/functions/api/runner/task"
 )
 
 func TestRunnerHello(t *testing.T) {
