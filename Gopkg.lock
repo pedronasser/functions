@@ -207,7 +207,7 @@ memo = "5fd6c54ce0cd2a6731c8d608f46bf65955197d4b6e517cdb23873ca8b3bec69f"
   branch = "master"
   name = "github.com/go-openapi/runtime"
   packages = [".","client"]
-  revision = "11e322eeecc1032d5a0a96c566ed53f2b5c26e22"
+  revision = "e66a4c4406028a04ddafd6002c378ffd3db7e52b"
 
 [[projects]]
   branch = "master"
