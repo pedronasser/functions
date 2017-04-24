@@ -1,7 +1,7 @@
 #!/bin/bash
 set -ex
 
-user="iron"
+user="pedronasser"
 service="functions"
 version_file="api/version/version.go"
 tag="latest"

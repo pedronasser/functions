@@ -29,10 +29,10 @@ docker-dep:
 
 docker-build:
 	docker run --rm -v ${CURDIR}:/go/src/github.com/pedronasser/functions -w /go/src/github.com/pedronasser/functions iron/go:dev go build -o functions-alpine
-	docker build -t iron/functions:latest .
+	docker build -t pedronasser/functions:latest .
 
 docker-run: docker-build
-	docker run --rm --privileged -it -e LOG_LEVEL=debug -e "DB_URL=bolt:///app/data/bolt.db" -v ${CURDIR}/data:/app/data -p 8080:8080 iron/functions
+	docker run --rm --privileged -it -e LOG_LEVEL=debug -e "DB_URL=bolt:///app/data/bolt.db" -v ${CURDIR}/data:/app/data -p 8080:8080 pedronasser/functions
 
 docker-test:
 	docker run -ti --privileged --rm -e LOG_LEVEL=debug \

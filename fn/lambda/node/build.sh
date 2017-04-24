@@ -1,3 +1,3 @@
 set -ex
 
-docker build -t iron/functions-lambda:nodejs4.3 .
+docker build -t pedronasser/functions-lambda:nodejs4.3 .

@@ -16,5 +16,5 @@ For more configuration options, see [docker mysql docs](https://hub.docker.com/_
 ```
 docker run --rm --privileged --link "iron-mysql:mysql" \
     -e "DB_URL=mysql://iron:ironfunctions@tcp(mysql:3306)/funcs" \
-    -it -p 8080:8080 iron/functions
+    -it -p 8080:8080 pedronasser/functions
 ```

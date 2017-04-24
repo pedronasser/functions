@@ -3,7 +3,7 @@
 This example will show you how to run a test suite on a function.
 
 ```sh
-# build the test image (iron/functions-testframework:0.0.1)
+# build the test image (pedronasser/functions-testframework:0.0.1)
 fn build
 # push it
 fn push

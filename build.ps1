@@ -22,11 +22,11 @@ function quick() {
 
 function build () {
     docker run --rm -v ${pwd}:/go/src/github.com/pedronasser/functions -w /go/src/github.com/pedronasser/functions iron/go:dev go build -o functions-alpine
-    docker build -t iron/functions:latest .
+    docker build -t pedronasser/functions:latest .
 }
 
 function run () {
-    docker run --rm --name functions -it -v /var/run/docker.sock:/var/run/docker.sock -e LOG_LEVEL=debug -e "DB_URL=bolt:///app/data/bolt.db" -v $PWD/data:/app/data -p 8080:8080 iron/functions
+    docker run --rm --name functions -it -v /var/run/docker.sock:/var/run/docker.sock -e LOG_LEVEL=debug -e "DB_URL=bolt:///app/data/bolt.db" -v $PWD/data:/app/data -p 8080:8080 pedronasser/functions
 }
 
 switch ($cmd)

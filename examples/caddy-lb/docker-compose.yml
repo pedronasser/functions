@@ -1,12 +1,12 @@
 ironfunctions01:
   restart: always
-  image: iron/functions
+  image: pedronasser/functions
 ironfunctions02:
   restart: always
-  image: iron/functions
+  image: pedronasser/functions
 ironfunctions03:
   restart: always
-  image: iron/functions
+  image: pedronasser/functions
 caddy:
   image: abiosoft/caddy
   volumes:

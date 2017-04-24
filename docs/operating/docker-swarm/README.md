@@ -24,7 +24,7 @@ $ docker run -d --name functions \
         -e DOCKER_MACHINE_NAME \
         -v $DOCKER_CERT_PATH:/docker-cert \
         -v functions-datafiles:/app/data \
-        iron/functions
+        pedronasser/functions
 ```
 
 2. Once the daemon is started, check where it is listening for connections:
@@ -32,7 +32,7 @@ $ docker run -d --name functions \
 ```ShellSession
 # docker info
 CONTAINER ID        IMAGE                COMMAND                  CREATED             STATUS              PORTS                                     NAMES
-5a0846e6a025        iron/functions       "/usr/local/bin/entry"   59 seconds ago      Up 58 seconds       2375/tcp, 10.0.0.1:8080->8080/tcp   swarm-agent-00/functions
+5a0846e6a025        pedronasser/functions       "/usr/local/bin/entry"   59 seconds ago      Up 58 seconds       2375/tcp, 10.0.0.1:8080->8080/tcp   swarm-agent-00/functions
 ````
 
 Note `10.0.0.1:8080` in `PORTS` column, this is where the service is listening. IronFunction will use Docker Swarm scheduler to deliver tasks to all nodes present in the cluster.
@@ -110,7 +110,7 @@ $ docker run -d --name functions-00 \
         -v /var/run/docker.sock:/var/run/docker.sock \
         -e 'MQ_URL=redis://functions-redis' \
         -e 'DB_URL=postgres://postgres:mysecretpassword@functions-postgres/?sslmode=disable' \
-        iron/functions
+        pedronasser/functions
 ```
 
 5. Load Balancer:

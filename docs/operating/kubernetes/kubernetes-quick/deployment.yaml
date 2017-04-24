@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: functions
-        image: iron/functions
+        image: pedronasser/functions
         securityContext:
           privileged: true
         env:

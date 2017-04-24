@@ -74,10 +74,10 @@ This guide will get you up and running in a few minutes.
 
 ### Run IronFunctions
 
-To get started quickly with IronFunctions, just fire up an `iron/functions` container:
+To get started quickly with IronFunctions, just fire up an `pedronasser/functions` container:
 
 ```sh
-docker run --rm -it --name functions -v ${PWD}/data:/app/data -v /var/run/docker.sock:/var/run/docker.sock -p 8080:8080 iron/functions
+docker run --rm -it --name functions -v ${PWD}/data:/app/data -v /var/run/docker.sock:/var/run/docker.sock -p 8080:8080 pedronasser/functions
 ```
 
 *where ${PWD}/data is the directory where the functions application data files will be stored*
@@ -291,7 +291,7 @@ Read more on [logging](docs/logging.md).
 ## Functions UI
 
 ```sh
-docker run --rm -it --link functions:api -p 4000:4000 -e "API_URL=http://api:8080" iron/functions-ui
+docker run --rm -it --link functions:api -p 4000:4000 -e "API_URL=http://api:8080" pedronasser/functions-ui
 ```
 
 For more information, see: https://github.com/pedronasser/functions-ui
