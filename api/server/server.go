@@ -31,6 +31,7 @@ const (
 	EnvDBURL    = "db_url"
 	EnvPort     = "port" // be careful, Gin expects this variable to be "port"
 	EnvAPIURL   = "api_url"
+	EnvDriver   = "driver"
 )
 
 type Server struct {
@@ -55,7 +56,7 @@ type Server struct {
 
 const cacheSize = 1024
 
-// NewFromEnv creates a new IronFunctions server based on env vars.
+// NewFromEnv creates a new IronFunctions server based on env vars.''
 func NewFromEnv(ctx context.Context) *Server {
 	ds, err := datastore.New(viper.GetString(EnvDBURL))
 	if err != nil {
@@ -68,16 +69,17 @@ func NewFromEnv(ctx context.Context) *Server {
 	}
 
 	apiURL := viper.GetString(EnvAPIURL)
+	drv := viper.GetString(EnvDriver)
 
-	return New(ctx, ds, mq, apiURL)
+	return New(ctx, drv, ds, mq, apiURL)
 }
 
 // New creates a new IronFunctions server with the passed in datastore, message queue and API URL
-func New(ctx context.Context, ds models.Datastore, mq models.MessageQueue, apiURL string, opts ...ServerOption) *Server {
+func New(ctx context.Context, drv string, ds models.Datastore, mq models.MessageQueue, apiURL string, opts ...ServerOption) *Server {
 	metricLogger := runner.NewMetricLogger()
 	funcLogger := runner.NewFuncLogger()
 
-	rnr, err := runner.New(ctx, funcLogger, metricLogger)
+	rnr, err := runner.New(ctx, drv, funcLogger, metricLogger)
 	if err != nil {
 		logrus.WithError(err).Fatalln("Failed to create a runner")
 		return nil

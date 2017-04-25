@@ -17,7 +17,7 @@ func TestRunnerHello(t *testing.T) {
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
 
-	runner, err := New(ctx, NewFuncLogger(), NewMetricLogger())
+	runner, err := New(ctx, "docker", NewFuncLogger(), NewMetricLogger())
 	if err != nil {
 		t.Fatalf("Test error during New() - %s", err)
 	}
@@ -70,7 +70,7 @@ func TestRunnerError(t *testing.T) {
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
 
-	runner, err := New(ctx, NewFuncLogger(), NewMetricLogger())
+	runner, err := New(ctx, "docker", NewFuncLogger(), NewMetricLogger())
 	if err != nil {
 		t.Fatalf("Test error during New() - %s", err)
 	}

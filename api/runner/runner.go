@@ -41,12 +41,12 @@ var (
 	WaitMemoryTimeout = 10 * time.Second
 )
 
-func New(ctx context.Context, flog FuncLogger, mlog MetricLogger) (*Runner, error) {
+func New(ctx context.Context, drv string, flog FuncLogger, mlog MetricLogger) (*Runner, error) {
 	// TODO: Is this really required for the container drivers? Can we remove it?
 	env := common.NewEnvironment(func(e *common.Environment) {})
 
 	// TODO: Create a drivers.New(runnerConfig) in Titan
-	driver, err := selectDriver("docker", env, &driverscommon.Config{})
+	driver, err := selectDriver(drv, env, &driverscommon.Config{})
 	if err != nil {
 		return nil, err
 	}

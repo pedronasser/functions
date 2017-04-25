@@ -16,7 +16,7 @@ import (
 
 func testRunner(t *testing.T) (*runner.Runner, context.CancelFunc) {
 	ctx, cancel := context.WithCancel(context.Background())
-	r, err := runner.New(ctx, runner.NewFuncLogger(), runner.NewMetricLogger())
+	r, err := runner.New(ctx, "docker", runner.NewFuncLogger(), runner.NewMetricLogger())
 	if err != nil {
 		t.Fatal("Test: failed to create new runner")
 	}

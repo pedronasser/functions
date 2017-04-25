@@ -191,7 +191,7 @@ func TestTasksrvURL(t *testing.T) {
 
 func testRunner(t *testing.T) (*Runner, context.CancelFunc) {
 	ctx, cancel := context.WithCancel(context.Background())
-	r, err := New(ctx, NewFuncLogger(), NewMetricLogger())
+	r, err := New(ctx, "docker", NewFuncLogger(), NewMetricLogger())
 	if err != nil {
 		t.Fatal("Test: failed to create new runner")
 	}
