@@ -1,4 +1,4 @@
-memo = "a387ca377b2c00654086ac01d0307df87f8699d2a4d9179dd63106f7db14e2e9"
+memo = "04cf647baf01b3666479577deba42b83dcd6e194f792f98fbc5f853a078d8362"
 
 [[projects]]
   branch = "master"
@@ -29,6 +29,12 @@ memo = "a387ca377b2c00654086ac01d0307df87f8699d2a4d9179dd63106f7db14e2e9"
   name = "github.com/PuerkitoBio/urlesc"
   packages = ["."]
   revision = "bbf7a2afc14f93e1e0a5c06df524fbd75e5031e5"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/RobotsAndPencils/go-saml"
+  packages = ["util"]
+  revision = "61c864339a6ef8d153c80afa47207d54935b85fd"
 
 [[projects]]
   branch = "master"
@@ -106,6 +112,12 @@ memo = "a387ca377b2c00654086ac01d0307df87f8699d2a4d9179dd63106f7db14e2e9"
   name = "github.com/dgrijalva/jwt-go"
   packages = ["."]
   revision = "a601269ab70c205d26370c16f7c81e9017c14e04"
+
+[[projects]]
+  name = "github.com/diego-araujo/go-saml"
+  packages = [".","util"]
+  revision = "83716ce8996d95d70cc5d496b9bd6dfc4b8b64f9"
+  version = "v0.2"
 
 [[projects]]
   branch = "master"
@@ -283,6 +295,12 @@ memo = "a387ca377b2c00654086ac01d0307df87f8699d2a4d9179dd63106f7db14e2e9"
 
 [[projects]]
   branch = "master"
+  name = "github.com/hashicorp/go-version"
+  packages = ["."]
+  revision = "03c5bf6be031b6dd45afec16b1cf94fc8938bc77"
+
+[[projects]]
+  branch = "master"
   name = "github.com/hashicorp/hcl"
   packages = [".","hcl/ast","hcl/parser","hcl/scanner","hcl/strconv","hcl/token","json/parser","json/scanner","json/token"]
   revision = "372e8ddaa16fd67e371e9323807d056b799360af"
@@ -292,6 +310,12 @@ memo = "a387ca377b2c00654086ac01d0307df87f8699d2a4d9179dd63106f7db14e2e9"
   name = "github.com/heroku/docker-registry-client"
   packages = ["registry"]
   revision = "2a2e6b9e3eed0a98d438f111ba7469744c07281d"
+
+[[projects]]
+  name = "github.com/howeyc/fsnotify"
+  packages = ["."]
+  revision = "441bbc86b167f3c1f4786afae9931403b99fdacf"
+  version = "v0.9.0"
 
 [[projects]]
   branch = "master"
@@ -325,6 +349,12 @@ memo = "a387ca377b2c00654086ac01d0307df87f8699d2a4d9179dd63106f7db14e2e9"
 
 [[projects]]
   branch = "master"
+  name = "github.com/kardianos/osext"
+  packages = ["."]
+  revision = "9d302b58e975387d0b4d9be876622c86cefe64be"
+
+[[projects]]
+  branch = "master"
   name = "github.com/lib/pq"
   packages = [".","oid"]
   revision = "5bf161122cd640c2a5a2c1d7fa49ea9befff31dd"
@@ -352,6 +382,12 @@ memo = "a387ca377b2c00654086ac01d0307df87f8699d2a4d9179dd63106f7db14e2e9"
   name = "github.com/mitchellh/mapstructure"
   packages = ["."]
   revision = "cc8532a8e9a55ea36402aa21efdf403a60d34096"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/nu7hatch/gouuid"
+  packages = ["."]
+  revision = "179d4d0c4d8d407a32af483c2354df1d2c91e6c3"
 
 [[projects]]
   branch = "master"
@@ -387,6 +423,12 @@ memo = "a387ca377b2c00654086ac01d0307df87f8699d2a4d9179dd63106f7db14e2e9"
   name = "github.com/pkg/errors"
   packages = ["."]
   revision = "248dadf4e9068a0b3e79f02ed0a610d935de5302"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/sajari/fuzzy"
+  packages = ["."]
+  revision = "243c923763cac789d1196949a834ca698dbd7a28"
 
 [[projects]]
   branch = "master"
@@ -426,6 +468,24 @@ memo = "a387ca377b2c00654086ac01d0307df87f8699d2a4d9179dd63106f7db14e2e9"
 
 [[projects]]
   branch = "master"
+  name = "github.com/tsuru/config"
+  packages = ["."]
+  revision = "0eee1ec3c7a2917396b20453f32ecb41919a2a22"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/tsuru/gnuflag"
+  packages = ["."]
+  revision = "86b8c1b864aadcf9c94d67bc607ce3f19cbb9aa2"
+
+[[projects]]
+  name = "github.com/tsuru/tsuru"
+  packages = ["auth","auth/native","auth/saml","cmd","db","db/storage","errors","exec","fs","git","hc","io","log","net","permission","quota","repository","validation"]
+  revision = "912826ba5b1a891a6991b5bd5dbc40fb8458eff7"
+  version = "1.2.0"
+
+[[projects]]
+  branch = "master"
   name = "github.com/ugorji/go"
   packages = ["codec"]
   revision = "708a42d246822952f38190a8d8c4e6b16a0e600c"
@@ -439,13 +499,13 @@ memo = "a387ca377b2c00654086ac01d0307df87f8699d2a4d9179dd63106f7db14e2e9"
 [[projects]]
   branch = "master"
   name = "golang.org/x/crypto"
-  packages = ["bcrypt","blowfish"]
+  packages = ["bcrypt","blowfish","ssh/terminal"]
   revision = "12c985af8526c1f6f0c463bbfd9d69623d13b323"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/net"
-  packages = ["context","context/ctxhttp","idna","proxy","publicsuffix"]
+  packages = ["context","context/ctxhttp","idna","proxy","publicsuffix","websocket"]
   revision = "d212a1ef2de2f5d441c327b8f26cf3ea3ea9f265"
 
 [[projects]]

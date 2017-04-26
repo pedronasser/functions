@@ -15,6 +15,7 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/pedronasser/functions/api/runner/task"
+	"github.com/pedronasser/functions/drivers/tsuru"
 	"github.com/pedronasser/runner/common"
 	"github.com/pedronasser/runner/drivers"
 	driverscommon "github.com/pedronasser/runner/drivers"
@@ -242,6 +243,8 @@ func selectDriver(driver string, env *common.Environment, conf *driverscommon.Co
 	case "docker":
 		docker := docker.NewDocker(env, *conf)
 		return docker, nil
+	case "tsuru":
+		return tsuru.NewTsuru(*conf)
 	case "mock":
 		return mock.New(), nil
 	}
