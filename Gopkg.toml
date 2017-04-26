@@ -52,16 +52,16 @@
   name = "github.com/go-openapi/errors"
 
 [[dependencies]]
-  branch = "master"
   name = "github.com/go-openapi/loads"
+  revision = "315567415dfd74b651f7a62cabfc82a57ed7b9ad"
 
 [[dependencies]]
-  branch = "master"
   name = "github.com/go-openapi/runtime"
+  revision = "14b161b40ece9dac8e244ab2fde2d209e108c6f5"
 
 [[dependencies]]
-  branch = "master"
   name = "github.com/go-openapi/spec"
+  revision = "f7ae86df5bc115a2744343016c789a89f065a4bd"
 
 [[dependencies]]
   branch = "master"
@@ -72,8 +72,8 @@
   name = "github.com/go-openapi/swag"
 
 [[dependencies]]
-  branch = "master"
   name = "github.com/go-openapi/validate"
+  revision = "027696d4b54399770f1cdcc6c6daa56975f9e14e"
 
 [[dependencies]]
   branch = "master"
@@ -104,8 +104,8 @@
   name = "github.com/lib/pq"
 
 [[dependencies]]
-  branch = "master"
   name = "github.com/pedronasser/runner"
+  revision = "8ba357251864aacb7e277f9b1284aae05bb2ff2c"
 
 [[dependencies]]
   branch = "master"

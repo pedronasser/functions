@@ -1,4 +1,4 @@
-memo = "5fd6c54ce0cd2a6731c8d608f46bf65955197d4b6e517cdb23873ca8b3bec69f"
+memo = "a387ca377b2c00654086ac01d0307df87f8699d2a4d9179dd63106f7db14e2e9"
 
 [[projects]]
   branch = "master"
@@ -177,7 +177,7 @@ memo = "5fd6c54ce0cd2a6731c8d608f46bf65955197d4b6e517cdb23873ca8b3bec69f"
   branch = "master"
   name = "github.com/go-openapi/analysis"
   packages = ["."]
-  revision = "d5a75b7d751ca3f11ad5d93cfe97405f2c3f6a47"
+  revision = "7222828b8ce19afee3c595aef6643b9e42150120"
 
 [[projects]]
   branch = "master"
@@ -198,22 +198,19 @@ memo = "5fd6c54ce0cd2a6731c8d608f46bf65955197d4b6e517cdb23873ca8b3bec69f"
   revision = "36d33bfe519efae5632669801b180bf1a245da3b"
 
 [[projects]]
-  branch = "master"
   name = "github.com/go-openapi/loads"
   packages = [".","fmts"]
-  revision = "6bb6486231e079ea125c0f39994ed3d0c53399ed"
+  revision = "315567415dfd74b651f7a62cabfc82a57ed7b9ad"
 
 [[projects]]
-  branch = "master"
   name = "github.com/go-openapi/runtime"
   packages = [".","client"]
-  revision = "e66a4c4406028a04ddafd6002c378ffd3db7e52b"
+  revision = "14b161b40ece9dac8e244ab2fde2d209e108c6f5"
 
 [[projects]]
-  branch = "master"
   name = "github.com/go-openapi/spec"
   packages = ["."]
-  revision = "e51c28f07047ad90caff03f6450908720d337e0c"
+  revision = "f7ae86df5bc115a2744343016c789a89f065a4bd"
 
 [[projects]]
   branch = "master"
@@ -228,10 +225,9 @@ memo = "5fd6c54ce0cd2a6731c8d608f46bf65955197d4b6e517cdb23873ca8b3bec69f"
   revision = "24ebf76d720bab64f62824d76bced3184a65490d"
 
 [[projects]]
-  branch = "master"
   name = "github.com/go-openapi/validate"
   packages = ["."]
-  revision = "035dcd74f1f61e83debe1c22950dc53556e7e4b2"
+  revision = "027696d4b54399770f1cdcc6c6daa56975f9e14e"
 
 [[projects]]
   branch = "master"
@@ -364,7 +360,6 @@ memo = "5fd6c54ce0cd2a6731c8d608f46bf65955197d4b6e517cdb23873ca8b3bec69f"
   revision = "522674998576b3aefdde233ffab20f763b83ac19"
 
 [[projects]]
-  branch = "master"
   name = "github.com/pedronasser/runner"
   packages = ["common","common/stats","drivers","drivers/docker","drivers/mock"]
   revision = "8ba357251864aacb7e277f9b1284aae05bb2ff2c"
